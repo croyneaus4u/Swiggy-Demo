@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB6F32931DC80080000CDCC6 /* SwiggyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F32921DC80080000CDCC6 /* SwiggyDemoTests.swift */; };
 		DBD5F3191DC52C0800479701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3181DC52C0800479701 /* AppDelegate.swift */; };
 		DBD5F31E1DC52C0800479701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F31C1DC52C0800479701 /* Main.storyboard */; };
 		DBD5F3201DC52C0800479701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F31F1DC52C0800479701 /* Assets.xcassets */; };
@@ -27,7 +28,20 @@
 		DBD5F3541DC7F8ED00479701 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3531DC7F8ED00479701 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DB6F32951DC80080000CDCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD5F30D1DC52C0800479701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD5F3141DC52C0800479701;
+			remoteInfo = SwiggyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DB6F32901DC80080000CDCC6 /* SwiggyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiggyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F32921DC80080000CDCC6 /* SwiggyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiggyDemoTests.swift; sourceTree = "<group>"; };
+		DB6F32941DC80080000CDCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBD5F3151DC52C0800479701 /* SwiggyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiggyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD5F3181DC52C0800479701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD5F31D1DC52C0800479701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB6F328D1DC80080000CDCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBD5F3121DC52C0800479701 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB6F32911DC80080000CDCC6 /* SwiggyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F32921DC80080000CDCC6 /* SwiggyDemoTests.swift */,
+				DB6F32941DC80080000CDCC6 /* Info.plist */,
+			);
+			path = SwiggyDemoTests;
+			sourceTree = "<group>";
+		};
 		DBD5F30C1DC52C0800479701 = {
 			isa = PBXGroup;
 			children = (
 				DBD5F3171DC52C0800479701 /* SwiggyDemo */,
+				DB6F32911DC80080000CDCC6 /* SwiggyDemoTests */,
 				DBD5F3161DC52C0800479701 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD5F3151DC52C0800479701 /* SwiggyDemo.app */,
+				DB6F32901DC80080000CDCC6 /* SwiggyDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +170,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB6F328F1DC80080000CDCC6 /* SwiggyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6F32991DC80080000CDCC6 /* Build configuration list for PBXNativeTarget "SwiggyDemoTests" */;
+			buildPhases = (
+				DB6F328C1DC80080000CDCC6 /* Sources */,
+				DB6F328D1DC80080000CDCC6 /* Frameworks */,
+				DB6F328E1DC80080000CDCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6F32961DC80080000CDCC6 /* PBXTargetDependency */,
+			);
+			name = SwiggyDemoTests;
+			productName = SwiggyDemoTests;
+			productReference = DB6F32901DC80080000CDCC6 /* SwiggyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DBD5F3141DC52C0800479701 /* SwiggyDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBD5F3271DC52C0800479701 /* Build configuration list for PBXNativeTarget "SwiggyDemo" */;
@@ -165,6 +215,11 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Lab kumar";
 				TargetAttributes = {
+					DB6F328F1DC80080000CDCC6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBD5F3141DC52C0800479701;
+					};
 					DBD5F3141DC52C0800479701 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -185,11 +240,19 @@
 			projectRoot = "";
 			targets = (
 				DBD5F3141DC52C0800479701 /* SwiggyDemo */,
+				DB6F328F1DC80080000CDCC6 /* SwiggyDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DB6F328E1DC80080000CDCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBD5F3131DC52C0800479701 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +269,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB6F328C1DC80080000CDCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F32931DC80080000CDCC6 /* SwiggyDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBD5F3111DC52C0800479701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +298,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DB6F32961DC80080000CDCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD5F3141DC52C0800479701 /* SwiggyDemo */;
+			targetProxy = DB6F32951DC80080000CDCC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		DBD5F31C1DC52C0800479701 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -247,6 +326,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DB6F32971DC80080000CDCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiggyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiggyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiggyDemo.app/SwiggyDemo";
+			};
+			name = Debug;
+		};
+		DB6F32981DC80080000CDCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiggyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiggyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiggyDemo.app/SwiggyDemo";
+			};
+			name = Release;
+		};
 		DBD5F3251DC52C0800479701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,6 +472,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB6F32991DC80080000CDCC6 /* Build configuration list for PBXNativeTarget "SwiggyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F32971DC80080000CDCC6 /* Debug */,
+				DB6F32981DC80080000CDCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DBD5F3101DC52C0800479701 /* Build configuration list for PBXProject "SwiggyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
