@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SectionView" customModule="SwiggyDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBS-3Y-r8a">
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an outlet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBq-zj-PgB">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="E4g-hz-s6p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7F-gc-ANQ">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="2Ow-Zb-15G"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="h7F-gc-ANQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="HS6-DV-Woo"/>
+                <constraint firstItem="pBS-3Y-r8a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="Kwj-FF-8Sm"/>
+                <constraint firstItem="h7F-gc-ANQ" firstAttribute="top" secondItem="JBq-zj-PgB" secondAttribute="bottom" constant="6" id="Oc3-ug-pbv"/>
+                <constraint firstItem="pBS-3Y-r8a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Rzz-d9-tLs"/>
+                <constraint firstAttribute="trailing" secondItem="pBS-3Y-r8a" secondAttribute="trailing" constant="8" id="Ujn-4M-XeE"/>
+                <constraint firstAttribute="bottom" secondItem="h7F-gc-ANQ" secondAttribute="bottom" constant="4" id="Y9J-NJ-02z"/>
+                <constraint firstItem="JBq-zj-PgB" firstAttribute="top" secondItem="pBS-3Y-r8a" secondAttribute="bottom" constant="8" id="g5c-YX-S0L"/>
+                <constraint firstItem="JBq-zj-PgB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jPg-qK-avZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameLabel" destination="pBS-3Y-r8a" id="qGB-nB-9LT"/>
+            </connections>
+            <point key="canvasLocation" x="-222" y="-412"/>
+        </view>
+    </objects>
+</document>

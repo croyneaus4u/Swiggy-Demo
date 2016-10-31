@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD5F3191DC52C0800479701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3181DC52C0800479701 /* AppDelegate.swift */; };
+		DBD5F31E1DC52C0800479701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F31C1DC52C0800479701 /* Main.storyboard */; };
+		DBD5F3201DC52C0800479701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F31F1DC52C0800479701 /* Assets.xcassets */; };
+		DBD5F3231DC52C0800479701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F3211DC52C0800479701 /* LaunchScreen.storyboard */; };
+		DBD5F32F1DC52C6A00479701 /* BaseRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F32C1DC52C6A00479701 /* BaseRequestor.swift */; };
+		DBD5F3311DC7325700479701 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3301DC7325700479701 /* TableViewController.swift */; };
+		DBD5F3331DC7520300479701 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3321DC7520300479701 /* Restaurants.swift */; };
+		DBD5F3391DC7643800479701 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3351DC7643800479701 /* Conversion.swift */; };
+		DBD5F33A1DC7643800479701 /* Deserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3361DC7643800479701 /* Deserialization.swift */; };
+		DBD5F33E1DC7778400479701 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F33C1DC7778400479701 /* RestaurantTableViewCell.swift */; };
+		DBD5F33F1DC7778400479701 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F33D1DC7778400479701 /* RestaurantTableViewCell.xib */; };
+		DBD5F3421DC78B2F00479701 /* OutletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3401DC78B2F00479701 /* OutletTableViewCell.swift */; };
+		DBD5F3431DC78B2F00479701 /* OutletTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F3411DC78B2F00479701 /* OutletTableViewCell.xib */; };
+		DBD5F3471DC794F100479701 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3461DC794F100479701 /* SectionView.swift */; };
+		DBD5F3491DC7951300479701 /* SectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD5F3481DC7951300479701 /* SectionView.xib */; };
+		DBD5F34B1DC7EA4100479701 /* ImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F34A1DC7EA4100479701 /* ImageView+WebImage.swift */; };
+		DBD5F34D1DC7EA7E00479701 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F34C1DC7EA7E00479701 /* ImageDownloader.swift */; };
+		DBD5F3541DC7F8ED00479701 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F3531DC7F8ED00479701 /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBD5F3151DC52C0800479701 /* SwiggyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiggyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD5F3181DC52C0800479701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD5F31D1DC52C0800479701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD5F31F1DC52C0800479701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD5F3221DC52C0800479701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD5F3241DC52C0800479701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD5F32C1DC52C6A00479701 /* BaseRequestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestor.swift; sourceTree = "<group>"; };
+		DBD5F3301DC7325700479701 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DBD5F3321DC7520300479701 /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		DBD5F3351DC7643800479701 /* Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		DBD5F3361DC7643800479701 /* Deserialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deserialization.swift; sourceTree = "<group>"; };
+		DBD5F33C1DC7778400479701 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		DBD5F33D1DC7778400479701 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		DBD5F3401DC78B2F00479701 /* OutletTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutletTableViewCell.swift; sourceTree = "<group>"; };
+		DBD5F3411DC78B2F00479701 /* OutletTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutletTableViewCell.xib; sourceTree = "<group>"; };
+		DBD5F3461DC794F100479701 /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		DBD5F3481DC7951300479701 /* SectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionView.xib; sourceTree = "<group>"; };
+		DBD5F34A1DC7EA4100479701 /* ImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+WebImage.swift"; sourceTree = "<group>"; };
+		DBD5F34C1DC7EA7E00479701 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DBD5F3531DC7F8ED00479701 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD5F3121DC52C0800479701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD5F30C1DC52C0800479701 = {
+			isa = PBXGroup;
+			children = (
+				DBD5F3171DC52C0800479701 /* SwiggyDemo */,
+				DBD5F3161DC52C0800479701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD5F3161DC52C0800479701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F3151DC52C0800479701 /* SwiggyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD5F3171DC52C0800479701 /* SwiggyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F3521DC7EC6400479701 /* Image Downloader */,
+				DBD5F3501DC7EC2F00479701 /* JSON Parsing */,
+				DBD5F34E1DC7EC0600479701 /* API */,
+				DBD5F3511DC7EC4500479701 /* Controls */,
+				DBD5F3181DC52C0800479701 /* AppDelegate.swift */,
+				DBD5F3531DC7F8ED00479701 /* Utility.swift */,
+				DBD5F31C1DC52C0800479701 /* Main.storyboard */,
+				DBD5F31F1DC52C0800479701 /* Assets.xcassets */,
+				DBD5F3211DC52C0800479701 /* LaunchScreen.storyboard */,
+				DBD5F3241DC52C0800479701 /* Info.plist */,
+			);
+			path = SwiggyDemo;
+			sourceTree = "<group>";
+		};
+		DBD5F34E1DC7EC0600479701 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F32C1DC52C6A00479701 /* BaseRequestor.swift */,
+				DBD5F3321DC7520300479701 /* Restaurants.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		DBD5F3501DC7EC2F00479701 /* JSON Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F3351DC7643800479701 /* Conversion.swift */,
+				DBD5F3361DC7643800479701 /* Deserialization.swift */,
+			);
+			name = "JSON Parsing";
+			sourceTree = "<group>";
+		};
+		DBD5F3511DC7EC4500479701 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F3301DC7325700479701 /* TableViewController.swift */,
+				DBD5F3461DC794F100479701 /* SectionView.swift */,
+				DBD5F3481DC7951300479701 /* SectionView.xib */,
+				DBD5F3401DC78B2F00479701 /* OutletTableViewCell.swift */,
+				DBD5F3411DC78B2F00479701 /* OutletTableViewCell.xib */,
+				DBD5F33C1DC7778400479701 /* RestaurantTableViewCell.swift */,
+				DBD5F33D1DC7778400479701 /* RestaurantTableViewCell.xib */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		DBD5F3521DC7EC6400479701 /* Image Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F34A1DC7EA4100479701 /* ImageView+WebImage.swift */,
+				DBD5F34C1DC7EA7E00479701 /* ImageDownloader.swift */,
+			);
+			name = "Image Downloader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD5F3141DC52C0800479701 /* SwiggyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD5F3271DC52C0800479701 /* Build configuration list for PBXNativeTarget "SwiggyDemo" */;
+			buildPhases = (
+				DBD5F3111DC52C0800479701 /* Sources */,
+				DBD5F3121DC52C0800479701 /* Frameworks */,
+				DBD5F3131DC52C0800479701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiggyDemo;
+			productName = SwiggyDemo;
+			productReference = DBD5F3151DC52C0800479701 /* SwiggyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD5F30D1DC52C0800479701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Lab kumar";
+				TargetAttributes = {
+					DBD5F3141DC52C0800479701 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBD5F3101DC52C0800479701 /* Build configuration list for PBXProject "SwiggyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD5F30C1DC52C0800479701;
+			productRefGroup = DBD5F3161DC52C0800479701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD5F3141DC52C0800479701 /* SwiggyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD5F3131DC52C0800479701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD5F33F1DC7778400479701 /* RestaurantTableViewCell.xib in Resources */,
+				DBD5F3231DC52C0800479701 /* LaunchScreen.storyboard in Resources */,
+				DBD5F3201DC52C0800479701 /* Assets.xcassets in Resources */,
+				DBD5F3431DC78B2F00479701 /* OutletTableViewCell.xib in Resources */,
+				DBD5F3491DC7951300479701 /* SectionView.xib in Resources */,
+				DBD5F31E1DC52C0800479701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD5F3111DC52C0800479701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD5F32F1DC52C6A00479701 /* BaseRequestor.swift in Sources */,
+				DBD5F34B1DC7EA4100479701 /* ImageView+WebImage.swift in Sources */,
+				DBD5F3311DC7325700479701 /* TableViewController.swift in Sources */,
+				DBD5F3471DC794F100479701 /* SectionView.swift in Sources */,
+				DBD5F3391DC7643800479701 /* Conversion.swift in Sources */,
+				DBD5F3191DC52C0800479701 /* AppDelegate.swift in Sources */,
+				DBD5F34D1DC7EA7E00479701 /* ImageDownloader.swift in Sources */,
+				DBD5F33A1DC7643800479701 /* Deserialization.swift in Sources */,
+				DBD5F3541DC7F8ED00479701 /* Utility.swift in Sources */,
+				DBD5F33E1DC7778400479701 /* RestaurantTableViewCell.swift in Sources */,
+				DBD5F3421DC78B2F00479701 /* OutletTableViewCell.swift in Sources */,
+				DBD5F3331DC7520300479701 /* Restaurants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBD5F31C1DC52C0800479701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD5F31D1DC52C0800479701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD5F3211DC52C0800479701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD5F3221DC52C0800479701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD5F3251DC52C0800479701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		DBD5F3261DC52C0800479701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD5F3281DC52C0800479701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiggyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiggyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		DBD5F3291DC52C0800479701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiggyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiggyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD5F3101DC52C0800479701 /* Build configuration list for PBXProject "SwiggyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5F3251DC52C0800479701 /* Debug */,
+				DBD5F3261DC52C0800479701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD5F3271DC52C0800479701 /* Build configuration list for PBXNativeTarget "SwiggyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5F3281DC52C0800479701 /* Debug */,
+				DBD5F3291DC52C0800479701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD5F30D1DC52C0800479701 /* Project object */;
+}
